@@ -1,38 +1,65 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  width: 250px;
+  gap: 20px 10px;
   align-items: center;
+  
+}
+body {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  transform: translateY(100px);
 }
 
-.App-link {
-  color: #61dafb;
+.error {
+  appearance: none;
+	border: none;
+	outline: none;
+	border-bottom: .2em solid #E91E63;
+	background: rgba(#E91E63, .2);
+	border-radius: .2em .2em 0 0;
+	padding: .4em;
+  color: #E91E63; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.textfield {
+  appearance: none;
+	border: none;
+	outline: none;
+	border-bottom: .2em solid darkgray;
+	background: rgba(#E91E63, .2);
+	border-radius: .2em .2em 0 0;
+	padding: .4em;
+	/* color: #E91E63; */
+
+
+}
+.lastNamefield {
+  appearance: none;
+	border: none;
+	outline: none;
+	border-bottom: .2em solid darkgray;
+	background: rgba(#E91E63, .2);
+	border-radius: .2em .2em 0 0;
+	padding: .4em;
+}
+.emailfield {
+  appearance: none;
+	border: none;
+	outline: none;
+	border-bottom: .2em solid darkgray;
+	background: rgba(#E91E63, .2);
+	border-radius: .2em .2em 0 0;
+	padding: .4em;
+}
+.passwordfield {
+  appearance: none;
+	border: none;
+	outline: none;
+	border-bottom: .2em solid darkgray;
+	background: rgba(#E91E63, .2);
+	border-radius: .2em .2em 0 0;
+	padding: .4em;
 }
